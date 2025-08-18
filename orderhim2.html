@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="fashion.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="nav">
+   
+    <a href="#menu"><i class="fa-solid fa-grip-lines"></i></a>
+    <img src="./images/slogo.jpg" alt="logo" class="navl">
+    <div class="icons">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</header>
+
+<div id="menu" class="menuoverlay">
+    <a href="#" class="close-btn">&times;</a>
+    <ul>
+        <li><a href="./aboutus.html">OUR STORY</a></li>
+        <li><a href="./home.html#map">LOCATION</a></li>
+        <li><a href="./offers.html">OFFERS</a></li>
+        <li><a href="./newarrivals.html">NEW DROPS</a></li>
+         <li><a href="./login.html">LOGIN</a></li>
+    </ul>
+</div>
+  <div class="product-container">
+    <!-- Left: Product Images -->
+    <div class="product-images">
+      <img src="./images/him2.jpg" alt="Main Product Image" class="main-img">
+      <div class="thumbs">
+        <img src="./images/him22.jpg" alt="Thumb 1">
+        <img src="./images/him2.jpg" alt="Thumb 2">
+        <img src="./images/slogo.jpg" alt="Thumb 3">
+        <img src="./images/sizechart.jpg" alt="Thumb 4">
+      </div>
+    </div>
+
+   
+    <div class="product-info">
+      <h3>Urban Street Hoodie</h3>
+      <p class="desc">Trendy oversized hoodie made with soft cotton for everyday wear. Ideal for casual outings and streetwear fashion lovers who want both comfort and style.</p>
+      <p class="price">₹ 1299.00</p>
+      <p class="tax">Taxes Included. Shipping Calculated at Checkout</p>
+      <a href="#sizechart" class="sizechart-btn">Size Chart</a>
+      <div id="sizechart" class="popup">
+        <div class="popup-content">
+          <a href="#" class="close">&times;</a>
+          <img src="./images/sizechart.jpg" alt="Size Chart">
+        </div>
+      </div>
+
+      
+      <div class="sizes">
+        <span>Size:</span>
+        <button>S</button>
+        <button>M</button>
+        <button>L</button>
+        <button>XL</button>
+      </div>
+
+      
+      <div class="quantity">
+        <span>Quantity:</span>
+        <div class="qty-box">
+          <button>-</button>
+          <input type="text" value="1" >
+          <button>+</button>
+        </div>
+      </div>
+
+      
+      <div class="actions">
+        <a href="#" class="add">Add to Cart</a>
+        <a href="#" class="buy">Buy Now</a>
+      </div>
+    </div>
+  </div>
+<section class="footer">
+    <div class="footcontents">
+        <div class="1f">
+<h3>FOR ORDER ENQUIRIES</h3><br><br>
+<h4>fitvault@gmail.com</h4><br>
+<h4>Timings: 10AM-10PM</h4><br>
+<h4>DAYS: MON-SUN</h4>
+        </div>
+        <div class="1f">
+<h3>KNOW MORE</h3><br><br>
+  <a href="./aboutus.html"><h4>ABOUT FIT VAULT</h4></a><br>
+<a href="./home.html#map"><h4>Store Location</h4></a><br>
+<a href=""><h4>Contact Us</h4></a></div>
+        <div class="1f">
+            <h3>POLICIES</h3><br><br>
+            <a href=""><h4>Terms and Conditions</h4></a><br>
+            <a href=""><h4>Return Policy</h4></a><br>
+            <a href=""><h4>Privacy</h4></a>
+        </div>
+    </div>
+     <!-- Chatbot Floating Button  -->
+<a href="#chatbot" class="chatbot-btn">💬</a>
+
+<!-- Chatbot Popup -->
+<div id="chatbot" class="chat-popup">
+  <div class="chat-header">
+    <h3>Chat with us</h3>
+    <a href="#" class="close-btn">&times;</a>
+  </div>
+  <div class="chat-body">
+    <p>Hello! How can we help you today?</p>
+  </div>
+  <div class="chat-footer">
+    <input type="text" placeholder="Type a message...">
+    <button>Send</button>
+  </div>
+</div>
+
+</section>
+</body>
+</html>
